@@ -1,0 +1,7 @@
+name: Amethy-Terminal
+version: 1.0-dev
+main: io.wany.amethy.terminal.bungeecord.AmethyTerminal
+
+description: Amethy Terminal Node Plugin for Bungeecord Servers. Provides remote terminal for Minecraft servers in web.
+author: Wany
+website: https://amethy.wany.io
