@@ -4,6 +4,15 @@ import java.io.File;
 import io.wany.amethy.terminal.bungeecord.modules.Json;
 import net.md_5.bungee.api.plugin.Plugin;
 
+/**
+ *
+ * Amethy Terminal (Bungeecord)
+ * https://amethy.wany.io
+ * https://github.com/wnynya/Amethy-Terminal-Bungeecord
+ * 
+ * ©2023 Wany <sung@wany.io> (https://wany.io)
+ *
+ */
 public class AmethyTerminal extends Plugin {
 
   public static AmethyTerminal PLUGIN;

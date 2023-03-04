@@ -1,3 +1,27 @@
-# Amethy Terminal (Bungee)
+# 아메시 터미널 (번지코드 서버용)
 
-Amethy Terminal Node Plugin for Bungeecord Servers
+**마인크래프트 서버를 위한 원격 터미널.**
+
+<br>
+
+아메시 터미널로 가능한 일...
+
+> _서버 메모리, 프로세서 상태 확인, 접속 플레이어, 월드 확인<br>
+> 웹 기반의 원격 서버 콘솔 사용<br>
+> 간단한 파일 탐색기 & 텍스트 편집기<br>
+> 플레이어 추적 & 플레이어 상태 모니터링 (버킷 서버용만 가능)<br>
+> 월드 설정 관리 & 월드 상태 모니터링 (버킷 서버용만 가능)_
+
+<br>
+
+이 아메시 터미널 노드 플러그인은 번지코드 기반의 서버에서 동작합니다. `번지코드`, `워터폴` 등의 서버 프로그램과 호환됩니다. 다른 서버 프로그램을 위한 아메시 터미널이 필요한 경우 아래의 링크를 확인해보세요.
+
+- [`버킷 서버용 아메시 터미널`](https://github.com/wnynya/Amethy-Terminal)
+
+아메시 터미널은 1.14.\* - 1.19.\* 버전의 마인크래프트 서버와 호환됩니다.<br>
+아메시 터미널 플러그인을 사용하려면 자바 버전 11 이상의 환경에서 서버를 실행해야 합니다.
+
+최신 버전의 플러그인 빌드는 아래의 링크에서 다운로드할 수 있습니다.<br>
+[`Amethy-Terminal-Bungeecord.jar (클릭하여 다운로드)`](https://api.wany.io/amethy/repository/Amethy-Terminal-Bungeecord/release/latest/Amethy-Terminal-Bungeecord.jar)
+
+자세한 설명은 [`버킷 서버용 아메시 터미널`](https://github.com/wnynya/Amethy-Terminal) 페이지를 참조하세요.
