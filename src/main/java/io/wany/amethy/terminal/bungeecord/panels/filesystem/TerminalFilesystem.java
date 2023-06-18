@@ -1,5 +1,8 @@
 package io.wany.amethy.terminal.bungeecord.panels.filesystem;
 
+import io.wany.amethy.terminal.bungeecord.TerminalNode;
+import io.wany.amethyst.Json;
+
 import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -7,9 +10,6 @@ import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
-
-import io.wany.amethy.terminal.bungeecord.TerminalNode;
-import io.wany.amethy.terminal.bungeecord.modules.Json;
 
 public class TerminalFilesystem {
 

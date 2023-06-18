@@ -1,10 +1,10 @@
 package io.wany.amethy.terminal.bungeecord.panels.console;
 
+import io.wany.amethy.terminal.bungeecord.TerminalNode;
+
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Handler;
 import java.util.logging.LogRecord;
-
-import io.wany.amethy.terminal.bungeecord.TerminalNode;
 
 public class TerminalConsoleLogHandler extends Handler {
 

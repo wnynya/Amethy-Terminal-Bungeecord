@@ -1,19 +1,14 @@
 package io.wany.amethy.terminal.bungeecord.panels.filesystem;
 
-import java.io.BufferedInputStream;
-import java.io.BufferedOutputStream;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
+import io.wany.amethyst.EventEmitter;
+import io.wany.amethyst.Json;
+
+import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.util.Base64;
 import java.util.function.BiConsumer;
 import java.util.function.Consumer;
-
-import io.wany.amethy.terminal.bungeecord.modules.EventEmitter;
-import io.wany.amethy.terminal.bungeecord.modules.Json;
 
 public class TerminalFile extends EventEmitter {
 

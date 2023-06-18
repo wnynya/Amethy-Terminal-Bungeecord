@@ -1,15 +1,14 @@
 package io.wany.amethy.terminal.bungeecord.panels.filesystem;
 
+import io.wany.amethyst.Json;
+import org.apache.commons.io.FileUtils;
+
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.util.ArrayList;
 import java.util.List;
-
-import org.apache.commons.io.FileUtils;
-
-import io.wany.amethy.terminal.bungeecord.modules.Json;
 
 public class TerminalDir {
 

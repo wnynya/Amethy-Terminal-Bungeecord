@@ -6,11 +6,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>io.wany.amethy.terminal.bungeecord</groupId>
-  <artifactId>Amethy-Terminal</artifactId>
+  <artifactId>Amethy-Terminal-Bungeecord</artifactId>
   <version>1.0.0</version>
 
-  <name>Amethy-Terminal</name>
-  <url>https://amethy.wany.io</url>
+  <name>Amethy-Terminal-Bungeecord</name>
+  <url>https://amethy.wany.io/terminal</url>
 
   <properties>
 

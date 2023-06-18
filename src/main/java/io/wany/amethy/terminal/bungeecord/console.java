@@ -1,11 +1,11 @@
 package io.wany.amethy.terminal.bungeecord;
 
+import net.md_5.bungee.api.ProxyServer;
+
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import net.md_5.bungee.api.ProxyServer;
-
-public class Console {
+public class console {
 
   public static Logger logger = ProxyServer.getInstance().getLogger();
 

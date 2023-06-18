@@ -1,13 +1,13 @@
 package io.wany.amethy.terminal.bungeecord.panels.console;
 
+import io.wany.amethy.terminal.bungeecord.TerminalNode;
+import io.wany.amethy.terminal.bungeecord.console;
+import io.wany.amethyst.Json;
+import net.md_5.bungee.api.ProxyServer;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
-
-import io.wany.amethy.terminal.bungeecord.Console;
-import io.wany.amethy.terminal.bungeecord.TerminalNode;
-import io.wany.amethy.terminal.bungeecord.modules.Json;
-import net.md_5.bungee.api.ProxyServer;
 
 public class TerminalConsole {
 
@@ -18,14 +18,14 @@ public class TerminalConsole {
   public static void onLoad() {
     logHandler = new TerminalConsoleLogHandler();
     logger.addHandler(logHandler);
-    Console.debug("Logger LogHandler enabled");
+    console.debug("Logger LogHandler enabled");
 
     addEventListener();
   }
 
   public static void onDisable() {
     logger.removeHandler(logHandler);
-    Console.debug("Logger LogHandler disabled");
+    console.debug("Logger LogHandler disabled");
   }
 
   public static void addEventListener() {

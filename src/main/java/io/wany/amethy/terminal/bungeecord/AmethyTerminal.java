@@ -1,8 +1,9 @@
 package io.wany.amethy.terminal.bungeecord;
 
-import java.io.File;
-import io.wany.amethy.terminal.bungeecord.modules.Json;
+import io.wany.amethyst.Json;
 import net.md_5.bungee.api.plugin.Plugin;
+
+import java.io.File;
 
 /**
  *
