@@ -25,6 +25,7 @@ public class AmethyTerminal extends Plugin {
   public static String VERSION;
   public static File FILE;
   public static File PLUGINS_DIR;
+  public static File PLUGIN_DIR;
   public static File SERVER_DIR;
   public static Json CONFIG;
   public static boolean DEBUG = false;
@@ -39,6 +40,7 @@ public class AmethyTerminal extends Plugin {
     VERSION = PLUGIN.getDescription().getVersion();
     FILE = PLUGIN.getFile().getAbsoluteFile();
     PLUGINS_DIR = FILE.getParentFile();
+    PLUGIN_DIR = PLUGINS_DIR.toPath().resolve("Amethy-Terminal").toFile();
     SERVER_DIR = PLUGINS_DIR.getParentFile();
 
     CONFIG = new Json(SERVER_DIR.toPath().resolve("terminal.json").toFile());
